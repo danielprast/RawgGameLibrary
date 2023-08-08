@@ -9,9 +9,9 @@ import CoreData
 
 
 @objc(FavoriteGame)
-class FavoriteGame: NSManagedObject {
+public class FavoriteGame: NSManagedObject {
   
-  internal func getFavorite(title: String, context: NSManagedObjectContext) -> FavoriteGame? {
+  public func getFavorite(title: String, context: NSManagedObjectContext) -> FavoriteGame? {
     let request: NSFetchRequest<FavoriteGame> = FavoriteGame.fetchRequest()
     request.predicate = NSPredicate(format: "title = %@", title)
     

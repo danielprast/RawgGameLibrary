@@ -31,7 +31,7 @@ class AppCobaController: UIViewController {
     super.viewDidLoad()
     view.backgroundColor = .yellow
     
-    let moc = coreDataStack.persistentContainer.viewContext
+    let moc = coreDataStack.persistentContainer.viewContext    
     let favGame = FavoriteGame(context: moc)
     let favorites = favGame.getFavorite(title: "Joss Gandoss", context: moc)
     
