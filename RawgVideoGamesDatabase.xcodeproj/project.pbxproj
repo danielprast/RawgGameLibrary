@@ -17,6 +17,8 @@
 		203F85012A823B2E00972493 /* RawgVideoGamesDatabaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F85002A823B2E00972493 /* RawgVideoGamesDatabaseUITests.swift */; };
 		203F85032A823B2E00972493 /* RawgVideoGamesDatabaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F85022A823B2E00972493 /* RawgVideoGamesDatabaseUITestsLaunchTests.swift */; };
 		203F85122A823C0800972493 /* iOSAppSource in Frameworks */ = {isa = PBXBuildFile; productRef = 203F85112A823C0800972493 /* iOSAppSource */; };
+		2040F7102A82795E00538BF6 /* GameLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2040F70E2A82795E00538BF6 /* GameLibrary.xcdatamodeld */; };
+		2040F7122A827CD100538BF6 /* FavoriteGame+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2040F7112A827CD100538BF6 /* FavoriteGame+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		203F85002A823B2E00972493 /* RawgVideoGamesDatabaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawgVideoGamesDatabaseUITests.swift; sourceTree = "<group>"; };
 		203F85022A823B2E00972493 /* RawgVideoGamesDatabaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawgVideoGamesDatabaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		203F850F2A823BD200972493 /* iOSAppSource */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = iOSAppSource; path = Packages/iOSAppSource; sourceTree = "<group>"; };
+		2040F70F2A82795E00538BF6 /* GameLibrary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameLibrary.xcdatamodel; sourceTree = "<group>"; };
+		2040F7112A827CD100538BF6 /* FavoriteGame+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteGame+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				203F84E82A823B2E00972493 /* Assets.xcassets */,
 				203F84EA2A823B2E00972493 /* LaunchScreen.storyboard */,
 				203F84ED2A823B2E00972493 /* Info.plist */,
+				2040F70E2A82795E00538BF6 /* GameLibrary.xcdatamodeld */,
+				2040F7112A827CD100538BF6 /* FavoriteGame+CoreDataClass.swift */,
 			);
 			path = RawgVideoGamesDatabase;
 			sourceTree = "<group>";
@@ -276,6 +282,8 @@
 				203F84E42A823B2B00972493 /* ViewController.swift in Sources */,
 				203F84E02A823B2B00972493 /* AppDelegate.swift in Sources */,
 				203F84E22A823B2B00972493 /* SceneDelegate.swift in Sources */,
+				2040F7102A82795E00538BF6 /* GameLibrary.xcdatamodeld in Sources */,
+				2040F7122A827CD100538BF6 /* FavoriteGame+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +626,19 @@
 			productName = iOSAppSource;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2040F70E2A82795E00538BF6 /* GameLibrary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2040F70F2A82795E00538BF6 /* GameLibrary.xcdatamodel */,
+			);
+			currentVersion = 2040F70F2A82795E00538BF6 /* GameLibrary.xcdatamodel */;
+			path = GameLibrary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 203F84D42A823B2B00972493 /* Project object */;
 }
